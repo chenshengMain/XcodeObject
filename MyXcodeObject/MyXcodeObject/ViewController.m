@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"加油啊，还差一步");
+    NSLog(@"我建了一个分支");
 
 }
 
