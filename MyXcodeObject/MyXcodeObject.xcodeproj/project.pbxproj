@@ -15,6 +15,8 @@
 		349844261E5B33450038F167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349844241E5B33450038F167 /* LaunchScreen.storyboard */; };
 		349844311E5B33450038F167 /* MyXcodeObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 349844301E5B33450038F167 /* MyXcodeObjectTests.m */; };
 		3498443C1E5B33450038F167 /* MyXcodeObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3498443B1E5B33450038F167 /* MyXcodeObjectUITests.m */; };
+		349844CA1E5B3A2E0038F167 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349844C81E5B3A2E0038F167 /* CSViewController.m */; };
+		349844CB1E5B3A2E0038F167 /* CSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349844C91E5B3A2E0038F167 /* CSViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		349844371E5B33450038F167 /* MyXcodeObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyXcodeObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3498443B1E5B33450038F167 /* MyXcodeObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyXcodeObjectUITests.m; sourceTree = "<group>"; };
 		3498443D1E5B33450038F167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349844C71E5B3A2E0038F167 /* CSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
+		349844C81E5B3A2E0038F167 /* CSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
+		349844C91E5B3A2E0038F167 /* CSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				349844241E5B33450038F167 /* LaunchScreen.storyboard */,
 				349844271E5B33450038F167 /* Info.plist */,
 				349844161E5B33450038F167 /* Supporting Files */,
+				349844C71E5B3A2E0038F167 /* CSViewController.h */,
+				349844C81E5B3A2E0038F167 /* CSViewController.m */,
+				349844C91E5B3A2E0038F167 /* CSViewController.xib */,
 			);
 			path = MyXcodeObject;
 			sourceTree = "<group>";
@@ -248,6 +256,7 @@
 			files = (
 				349844261E5B33450038F167 /* LaunchScreen.storyboard in Resources */,
 				349844231E5B33450038F167 /* Assets.xcassets in Resources */,
+				349844CB1E5B3A2E0038F167 /* CSViewController.xib in Resources */,
 				349844211E5B33450038F167 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +284,7 @@
 			files = (
 				3498441E1E5B33450038F167 /* ViewController.m in Sources */,
 				3498441B1E5B33450038F167 /* AppDelegate.m in Sources */,
+				349844CA1E5B3A2E0038F167 /* CSViewController.m in Sources */,
 				349844181E5B33450038F167 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
