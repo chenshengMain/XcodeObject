@@ -22,6 +22,10 @@
     NSLog(@"我在主分支加了东西，哈哈哈，小心，有地雷哦");
     NSLog(@"这是csbranch更改的东西，哟西哟西小游戏。。。。");
 
+    NSLog(@"用git命令行提交代码");
+    
+    NSLog(@"CSsencondBranch   新的改动");
+   
 }
 
 
