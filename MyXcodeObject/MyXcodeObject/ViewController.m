@@ -16,15 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"加油啊，还差一步");
-    NSLog(@"我建了一个分支");
-    
-    NSLog(@"我在主分支加了东西，哈哈哈，小心，有地雷哦");
-    NSLog(@"这是CSSecond分支哈哈哈想想就。。。");
-
-    NSLog(@"用git命令行提交代码");
-    
-    NSLog(@"CSsencondBranch   新的改动");
+    NSLog(@"CSSecondBranch   first  修改");
    
 }
 
