@@ -16,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"mater  第一次改动");
-    NSLog(@"CSBranch  分支 01 改动");
+
    
 }
 - (IBAction)goEditImgVC:(id)sender {
