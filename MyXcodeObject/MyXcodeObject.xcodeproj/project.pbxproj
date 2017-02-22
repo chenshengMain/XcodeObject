@@ -17,6 +17,10 @@
 		3498443C1E5B33450038F167 /* MyXcodeObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3498443B1E5B33450038F167 /* MyXcodeObjectUITests.m */; };
 		349844CA1E5B3A2E0038F167 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349844C81E5B3A2E0038F167 /* CSViewController.m */; };
 		349844CB1E5B3A2E0038F167 /* CSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349844C91E5B3A2E0038F167 /* CSViewController.xib */; };
+		349844CF1E5D6B2E0038F167 /* MGCEditImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349844CD1E5D6B2E0038F167 /* MGCEditImageViewController.m */; };
+		349844D01E5D6B2E0038F167 /* MGCEditImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349844CE1E5D6B2E0038F167 /* MGCEditImageViewController.xib */; };
+		349844D31E5D6EC70038F167 /* UIImage+imgCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 349844D21E5D6EC70038F167 /* UIImage+imgCustom.m */; };
+		349844D51E5D71220038F167 /* 健康调查.png in Resources */ = {isa = PBXBuildFile; fileRef = 349844D41E5D71220038F167 /* 健康调查.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,12 @@
 		349844C71E5B3A2E0038F167 /* CSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
 		349844C81E5B3A2E0038F167 /* CSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
 		349844C91E5B3A2E0038F167 /* CSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSViewController.xib; sourceTree = "<group>"; };
+		349844CC1E5D6B2D0038F167 /* MGCEditImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEditImageViewController.h; sourceTree = "<group>"; };
+		349844CD1E5D6B2E0038F167 /* MGCEditImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEditImageViewController.m; sourceTree = "<group>"; };
+		349844CE1E5D6B2E0038F167 /* MGCEditImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGCEditImageViewController.xib; sourceTree = "<group>"; };
+		349844D11E5D6EC70038F167 /* UIImage+imgCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+imgCustom.h"; sourceTree = "<group>"; };
+		349844D21E5D6EC70038F167 /* UIImage+imgCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imgCustom.m"; sourceTree = "<group>"; };
+		349844D41E5D71220038F167 /* 健康调查.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康调查.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,7 @@
 		349844151E5B33450038F167 /* MyXcodeObject */ = {
 			isa = PBXGroup;
 			children = (
+				349844D41E5D71220038F167 /* 健康调查.png */,
 				349844191E5B33450038F167 /* AppDelegate.h */,
 				3498441A1E5B33450038F167 /* AppDelegate.m */,
 				3498441C1E5B33450038F167 /* ViewController.h */,
@@ -118,6 +129,11 @@
 				349844C71E5B3A2E0038F167 /* CSViewController.h */,
 				349844C81E5B3A2E0038F167 /* CSViewController.m */,
 				349844C91E5B3A2E0038F167 /* CSViewController.xib */,
+				349844CC1E5D6B2D0038F167 /* MGCEditImageViewController.h */,
+				349844CD1E5D6B2E0038F167 /* MGCEditImageViewController.m */,
+				349844CE1E5D6B2E0038F167 /* MGCEditImageViewController.xib */,
+				349844D11E5D6EC70038F167 /* UIImage+imgCustom.h */,
+				349844D21E5D6EC70038F167 /* UIImage+imgCustom.m */,
 			);
 			path = MyXcodeObject;
 			sourceTree = "<group>";
@@ -254,6 +270,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349844D01E5D6B2E0038F167 /* MGCEditImageViewController.xib in Resources */,
+				349844D51E5D71220038F167 /* 健康调查.png in Resources */,
 				349844261E5B33450038F167 /* LaunchScreen.storyboard in Resources */,
 				349844231E5B33450038F167 /* Assets.xcassets in Resources */,
 				349844CB1E5B3A2E0038F167 /* CSViewController.xib in Resources */,
@@ -283,6 +301,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3498441E1E5B33450038F167 /* ViewController.m in Sources */,
+				349844CF1E5D6B2E0038F167 /* MGCEditImageViewController.m in Sources */,
+				349844D31E5D6EC70038F167 /* UIImage+imgCustom.m in Sources */,
 				3498441B1E5B33450038F167 /* AppDelegate.m in Sources */,
 				349844CA1E5B3A2E0038F167 /* CSViewController.m in Sources */,
 				349844181E5B33450038F167 /* main.m in Sources */,
@@ -515,6 +535,7 @@
 				349844421E5B33450038F167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		349844431E5B33450038F167 /* Build configuration list for PBXNativeTarget "MyXcodeObjectTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +544,7 @@
 				349844451E5B33450038F167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		349844461E5B33450038F167 /* Build configuration list for PBXNativeTarget "MyXcodeObjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +553,7 @@
 				349844481E5B33450038F167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

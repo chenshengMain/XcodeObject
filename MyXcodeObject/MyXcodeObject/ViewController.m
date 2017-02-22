@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MGCEditImageViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,17 @@
     NSLog(@"mater  第一次改动");
     NSLog(@"CSBranch  分支 01 改动");
    
+}
+- (IBAction)goEditImgVC:(id)sender {
+    
+    
+    MGCEditImageViewController * vc = [[MGCEditImageViewController alloc]init];
+    vc.image = [UIImage imageNamed:@"健康调查"];
+    vc.ratioW_Y = 1;
+    vc.suitableWidth = 100;
+    vc.editStyle = MGCEditSelectImageViewShapeStyle_circle;
+    [self presentViewController:vc animated:YES completion:nil];
+    
 }
 
 
